@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """第二道閘：OpenCC 逐行候選偵測（tw-chinese-copywriting v2.5.0 起）。
+參考來源：BYVoid/OpenCC（https://github.com/BYVoid/OpenCC ，Apache-2.0）。
 
 usage: opencc_gate.py <檔案> [--vocab]
   預設用 -c s2t（STPhrases+STCharacters）：命中＝簡體字形/簡體詞候選。

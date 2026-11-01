@@ -1,7 +1,7 @@
 ---
 name: tw-chinese-copywriting
 description: "Use for zh-TW text. Taiwan terms only, sparanoid layout."
-version: 2.6.0
+version: 2.6.1
 metadata:
   hermes:
     tags: [writing, zh-tw, formatting]
@@ -62,3 +62,10 @@ metadata:
 ## 維護
 
 維護此 skill 時使用 [examples.md](references/examples.md) 的案例驗收。工作過程中遇到詞表沒有的用語，先向使用者提案（附語境、建議用法與反例），同意後才收錄；不自行膨脹詞表，也不新增無語境的單字對照。
+
+## 參考來源
+
+- **BYVoid/OpenCC**（https://github.com/BYVoid/OpenCC ，Apache-2.0）：第二道閘 4b 用它的 s2t 設定與 STPhrases／STCharacters 詞典；「s2twp 只做簡源直轉、不做繁體用語在地化」的界線結論出自 2026-11-01 對 apt 1.1.7 的在地實測。
+- **sysprog21/zhtw-mcp**（https://github.com/sysprog21/zhtw-mcp ，MIT）：第三道閘 4c 的六類規則分類（半形標點、引號在地化、邊界空格、專名 casing、政治色彩詞、AI 腔填充語）與「兩岸同形歧義詞」表的概念借鑑自它的規則表結構（2026-11-01）。只借分類架構，本 skill 未安裝或執行該工具。
+- **sparanoid/typesetting-guidelines**（https://github.com/sparanoid/typesetting-guidelines ，MIT）：「排版規則」一節與 4c 的 CJK／拉丁邊界空格規則源頭。
+- 詞表與字元類內容本身來自我們自己的歷史糾錯紀錄（各條目附日期與命中證據），非取自上述專案。

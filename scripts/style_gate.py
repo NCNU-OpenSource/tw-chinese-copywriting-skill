@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """第三道閘：排版與詞層候測（借 zhtw-mcp 的規則分類架構，純 stdlib，零依賴）。
+參考來源：sysprog21/zhtw-mcp（https://github.com/sysprog21/zhtw-mcp ，MIT，
+規則分類借鑑，未引入該工具）；邊界空格規則源頭 sparanoid/typesetting-guidelines。
 
 usage: style_gate.py <檔案>
 exit: 0=無候選, 1=有候選, 2=執行錯誤。
